@@ -1,409 +1,543 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"  href="resources/css/styles.css">
-    <link rel="shortcut icon"  type="image/x-icon" href="resources/css/img/logoBrowserTab.png"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="resources/css/styles.css" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="resources/css/img/logoBrowserTab.png"
+    />
     <title>Home</title>
-<script>
-function collapsHeader(){
-   var x = document.getElementById("link-container");
-   if (x.style.display==="flex") {
-    x.style.display="none"    
-   }else{
-    x.style.display="flex"
-   }
-}
-function displayAboutMe() {
-   document.getElementById('div-link1').style.display= "flex"
-   document.getElementById('div-link2').style.display= "none"
-   document.getElementById('div-link3').style.display= "none"
-   document.getElementById('link1').style.backgroundColor="rgb(2,0,36)"
-   document.getElementById('link2').style.backgroundColor="#ddd"
-   document.getElementById('link3').style.backgroundColor="#ddd"
-    }
-    function displaySkills() {
-    document.getElementById('div-link1').style.display= "none"
-    document.getElementById('div-link2').style.display= "none"
-    document.getElementById('div-link3').style.display= "flex"    
-    document.getElementById('link1').style.backgroundColor="#ddd"
-    document.getElementById('link2').style.backgroundColor="rgb(2,0,36)"
-    document.getElementById('link3').style.backgroundColor="#ddd" 
-    }
-   function displayExperiance() {
-   document.getElementById('div-link1').style.display= "none"
-   document.getElementById('div-link2').style.display= "flex"
-   document.getElementById('div-link3').style.display= "none"     
-   document.getElementById('link1').style.backgroundColor="#ddd"
-   document.getElementById('link2').style.backgroundColor="#ddd"
-   document.getElementById('link3').style.backgroundColor="rgb(2,0,36)"
-    }
-function displayFrontEnd() {
-   document.getElementById('skill-link1').style.display= "flex"
-   document.getElementById('skill-link2').style.display= "none"
-   document.getElementById('skill-link3').style.display= "none"
-   document.getElementById('skills-link1').style.backgroundColor="rgb(2,0,36)"
-   document.getElementById('skills-link2').style.backgroundColor="#ddd"
-   document.getElementById('skills-link3').style.backgroundColor="#ddd"
-    }
-function displayBackEnd() {
-   document.getElementById('skill-link1').style.display= "none"
-   document.getElementById('skill-link2').style.display= "flex"
-   document.getElementById('skill-link3').style.display= "none"  
-   document.getElementById('skills-link1').style.backgroundColor="#ddd"
-   document.getElementById('skills-link2').style.backgroundColor="rgb(2,0,36)"
-   document.getElementById('skills-link3').style.backgroundColor="#ddd"   
-    }
-function displayTools() {
-   document.getElementById('skill-link1').style.display= "none"
-   document.getElementById('skill-link2').style.display= "none"
-   document.getElementById('skill-link3').style.display= "flex"  
-   document.getElementById('skills-link1').style.backgroundColor="#ddd"
-   document.getElementById('skills-link2').style.backgroundColor="#ddd"
-   document.getElementById('skills-link3').style.backgroundColor="rgb(2,0,36)"    
-    }
-</script>  
-</head>
-<body>
+    <script>
+      function collapsHeader() {
+        var x = document.getElementById("link-container");
+        if (x.style.display === "flex") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "flex";
+        }
+      }
+      function displayAboutMe() {
+        document.getElementById("div-link1").style.display = "flex";
+        document.getElementById("div-link2").style.display = "none";
+        document.getElementById("div-link3").style.display = "none";
+        document.getElementById("link1").style.backgroundColor = "rgb(2,0,36)";
+        document.getElementById("link2").style.backgroundColor = "#ddd";
+        document.getElementById("link3").style.backgroundColor = "#ddd";
+      }
+      function displaySkills() {
+        document.getElementById("div-link1").style.display = "none";
+        document.getElementById("div-link2").style.display = "none";
+        document.getElementById("div-link3").style.display = "flex";
+        document.getElementById("link1").style.backgroundColor = "#ddd";
+        document.getElementById("link2").style.backgroundColor = "rgb(2,0,36)";
+        document.getElementById("link3").style.backgroundColor = "#ddd";
+      }
+      function displayExperiance() {
+        document.getElementById("div-link1").style.display = "none";
+        document.getElementById("div-link2").style.display = "flex";
+        document.getElementById("div-link3").style.display = "none";
+        document.getElementById("link1").style.backgroundColor = "#ddd";
+        document.getElementById("link2").style.backgroundColor = "#ddd";
+        document.getElementById("link3").style.backgroundColor = "rgb(2,0,36)";
+      }
+      function displayFrontEnd() {
+        document.getElementById("skill-link1").style.display = "flex";
+        document.getElementById("skill-link2").style.display = "none";
+        document.getElementById("skill-link3").style.display = "none";
+        document.getElementById("skills-link1").style.backgroundColor =
+          "rgb(2,0,36)";
+        document.getElementById("skills-link2").style.backgroundColor = "#ddd";
+        document.getElementById("skills-link3").style.backgroundColor = "#ddd";
+      }
+      function displayBackEnd() {
+        document.getElementById("skill-link1").style.display = "none";
+        document.getElementById("skill-link2").style.display = "flex";
+        document.getElementById("skill-link3").style.display = "none";
+        document.getElementById("skills-link1").style.backgroundColor = "#ddd";
+        document.getElementById("skills-link2").style.backgroundColor =
+          "rgb(2,0,36)";
+        document.getElementById("skills-link3").style.backgroundColor = "#ddd";
+      }
+      function displayTools() {
+        document.getElementById("skill-link1").style.display = "none";
+        document.getElementById("skill-link2").style.display = "none";
+        document.getElementById("skill-link3").style.display = "flex";
+        document.getElementById("skills-link1").style.backgroundColor = "#ddd";
+        document.getElementById("skills-link2").style.backgroundColor = "#ddd";
+        document.getElementById("skills-link3").style.backgroundColor =
+          "rgb(2,0,36)";
+      }
+    </script>
+  </head>
+  <body>
     <div class="home-container">
-        <div class="header-container">
-            <div class="nav-container">
-                <div id="mobile-navbar">
-                    <img src="resources/css/img/logo.png" alt="My-logo" class="logo">
-                <a href="javascript:void(0);" class="navigation-icon" onclick="collapsHeader()">
-                    <img src="resources/css/img/navigation.png" alt="navigation">
-                </a>
-                </div>
-                <div id="link-container">
-                <div class="link-container">
-                    <a href="index.html">home</a>
-                    <a href="#aboutme">about me</a>
-                    <a href="#skills">skills</a>
-                    <a href="#myWorks">project</a>
-                    <a href="#contact">contact</a>
-                </div>
-                <div class="social-container">
-                    <a href="https://www.facebook.com/yousuf.mohammadi.71"><img src="resources/css/img/001-facebook.png" alt="facebook" class="social-icon"></a>
-                    <a href="https://twitter.com/Mh_Yousuf2021"><img src="resources/css/img/005-twitter.png" alt="twitter" class="social-icon"></a>
-                    <a href="https://www.linkedin.com/in/yousuf-mohammadi-4114b3179/"><img src="resources/css/img/007-linkedin.png" alt="linked in" class="social-icon"></a>
-                    <a href="https://github.com/YousufMohammadi"><img src="resources/css/img/002-github.png" alt="linked in" class="social-icon"></a>
-                </div>
-                </div>
-                
+      <div class="header-container">
+        <div class="nav-container">
+          <div id="mobile-navbar">
+            <img
+              src="resources/css/img/Reza-designstyle-boots-m.png"
+              alt="My-logo"
+              class="logo"
+            />
+            <a
+              href="javascript:void(0);"
+              class="navigation-icon"
+              onclick="collapsHeader()"
+            >
+              <img src="resources/css/img/navigation.png" alt="navigation" />
+            </a>
+          </div>
+          <div id="link-container">
+            <div class="link-container">
+              <a href="index.html">home</a>
+              <a href="#aboutme">about me</a>
+              <a href="#skills">skills</a>
+              <a href="#myWorks">project</a>
+              <a href="#contact">contact</a>
             </div>
-            <div class="status-container">
-                <div class="status-par">
-                    <span class="par">hello,</span>
-                    <span class="par">i am mohammad yousuf</span>
-                    <span class="par">a pro web developer</span>
-                    <span class="par">from afghanistan</span>
-                    <a href="resources/images/cv.pdf" class="hire-me">download CV</a>
-                </div>
-                <img src="resources/css/img/programming.svg" alt="prgrammer" class="programming-img">
+            <div class="social-container">
+              <a href="https://www.facebook.com/yousuf.mohammadi.71"
+                ><img
+                  src="resources/css/img/001-facebook.png"
+                  alt="facebook"
+                  class="social-icon"
+              /></a>
+              <a href="https://twitter.com/Mh_Yousuf2021"
+                ><img
+                  src="resources/css/img/005-twitter.png"
+                  alt="twitter"
+                  class="social-icon"
+              /></a>
+              <a href="https://www.linkedin.com/in/yousuf-mohammadi-4114b3179/"
+                ><img
+                  src="resources/css/img/007-linkedin.png"
+                  alt="linked in"
+                  class="social-icon"
+              /></a>
+              <a href="https://github.com/YousufMohammadi"
+                ><img
+                  src="resources/css/img/002-github.png"
+                  alt="linked in"
+                  class="social-icon"
+              /></a>
             </div>
+          </div>
         </div>
-        <div class="about-container" id="aboutme">
-            <span class="about-me">
-                about me
-            </span>
-            <div class="portfailo-link">
-                <a href="#aboutme" class="link active-link" id="link1" onclick="displayAboutMe()" style="background-color: rgb(2,0,36);">bio</a>
-                <a href="#aboutme" class="link active-link" id="link2" onclick="displaySkills()">education</a>
-                <a href="#aboutme" class="link active-link" id="link3" onclick="displayExperiance()">experience</a>
-            </div>
-            <div class="profile-container">
-            <div class="portfailo-container">
-                <span class="about-passion">a little about me and my passion</span>
-                <div class="image-container">
-                    <img src="resources/images/profile.jpg" alt="my-image" class="my-image">
-                </div>
-            </div>
-            <div class="portfailo-link__container">
-                <div class="portfailo-text" id="div-link1">
-                    <span>Hi, I’m Yousuf! I'm a web developer with in-depth experience in front-end programming languages. In a nutshell, I create websites that help organizations address business challenges and meet their needs. I manage everything from website navigation and layout to a company's web hosting and security architecture. My expertise lies within front-end web apps, and the main languages in my tech stack are JavaScript, React, and of course HTML/CSS. I’m a lifelong learner (currently taking a course on building Mobile applications with React Native!) and love to read, run, and find new friends in Herat City.</span>
-                </div>
-                <div class="portfailo-text" id="div-link2" style="display:none ;">
-                    <span class="experience">
-                        <h1 class="experience-heading">My experience</h1>
-                        <ul class="experience-list">
-                            <li>2 Years Work Experience as programmer</li>
-                            <li>Programming as front end developer</li>
-                            <li>Design best UI for website</li>
-                            <li>Expert knowledge of front end languages</li>
-                            <li>Organize information the right way</li>
-                        </ul>
-                    </span>
-                </div>
-                <div class="portfailo-text" id="div-link3" style="display:none ;">
-                    <span class="education">
-                        <h1 class="education-heading">My education</h1>
-                        <ul class="education-list">
-                            <li>Graduated from sultan High School since 2019</li>
-                            <li>Graduated from Herat University since 2022</li>
-                            <li>Having Attended the Herat Province Training Computer
-                                for July2018 to January2019</li>
-                            <li>Having Attended English Lessons about 6 semesters at
-                                Academy of TOEFL Ertaqa</li>
-                            <li>By Taking a good Score (305) at the kankor Exam
-                                was able to succeed in computer science faculty</li>
-                        </ul>
-                    </span>
-                </div>
-                <div class="cv-container" id="cv-1">
-                    <a href="resources/images/cv.pdf" class="cv-link">download CV</a>
-                    <a href="#myWorks" class="cv-link">my works</a>
-                </div>
-            </div>
-            </div>
+        <div class="status-container">
+          <div class="status-par">
+            <span class="par">hello,</span>
+            <span class="par">i am mohammad yousuf</span>
+            <span class="par">a pro web developer</span>
+            <span class="par">from afghanistan</span>
+            <a href="resources/images/cv.pdf" class="hire-me">download CV</a>
+          </div>
+          <img
+            src="resources/css/img/programming.svg"
+            alt="prgrammer"
+            class="programming-img"
+          />
         </div>
-        <div class="skills-container" id="skills">
-            <span class="skill-heading">skills</span>
-            <div class="skills-catagory">
-                <a href="#skills" class="link" id="skills-link1" onclick="displayFrontEnd()" style="background-color:rgb(2,0,36) ;">front end</a>
-                <a href="#skills" class="link" id="skills-link2" onclick="displayBackEnd()">back end</a>
-                <a href="#skills" class="link" id="skills-link3" onclick="displayTools()">tools</a>
+      </div>
+      <div class="about-container" id="aboutme">
+        <span class="about-me"> about me </span>
+        <div class="portfailo-link">
+          <a
+            href="#aboutme"
+            class="link active-link"
+            id="link1"
+            onclick="displayAboutMe()"
+            style="background-color: rgb(2, 0, 36)"
+            >bio</a
+          >
+          <a
+            href="#aboutme"
+            class="link active-link"
+            id="link2"
+            onclick="displaySkills()"
+            >education</a
+          >
+          <a
+            href="#aboutme"
+            class="link active-link"
+            id="link3"
+            onclick="displayExperiance()"
+            >experience</a
+          >
+        </div>
+        <div class="profile-container">
+          <div class="portfailo-container">
+            <span class="about-passion">a little about me and my passion</span>
+            <div class="image-container">
+              <img
+                src="resources/images/reza.jpeg"
+                alt="my-image"
+                class="my-image"
+              />
             </div>
-            <div class="language-container">
-             <div id="skill-link1"> 
-                 <div class="skill-row">
-                     <div class="skill-card">
-                         <div class="skill-cardImg-container1"></div>
-                         <span class="skill-card-title">HTML</span>
-                         <div class="language-percentage">
-                         <span class="percentage fill"></span>
-                         <span class="percentage fill"></span>
-                         <span class="percentage fill"></span>
-                         <span class="percentage fill"></span>
-                         <span class="percentage empty"></span>
-                         </div>
-                     </div>
-                     <div class="skill-card">
-                         <div class="skill-cardImg-container2"></div>
-                         <span class="skill-card-title">CSS</span>
-                         <div class="language-percentage">
-                         <span class="percentage fill"></span>
-                         <span class="percentage fill"></span>
-                         <span class="percentage fill"></span>
-                         <span class="percentage fill"></span>
-                         <span class="percentage empty"></span>
-                         </div>
-                     </div>
-                     <div class="skill-card">
-                         <div class="skill-cardImg-container3"></div>
-                         <span class="skill-card-title">BOOTSTRAP</span>
-                         <div class="language-percentage">
-                         <span class="percentage fill"></span>
-                         <span class="percentage fill"></span>
-                         <span class="percentage fill"></span>
-                         <span class="percentage fill"></span>
-                         <span class="percentage empty"></span>
-                         </div>
-                     </div>
-                     <div class="skill-card">
-                         <div class="skill-cardImg-container4"></div>
-                         <span class="skill-card-title">SASS</span>
-                         <div class="language-percentage">
-                         <span class="percentage fill"></span>
-                         <span class="percentage fill"></span>
-                         <span class="percentage fill"></span>
-                         <span class="percentage empty"></span>
-                         <span class="percentage empty"></span>
-                         </div>
-                     </div>
-                 </div>
-                 <div class="skill-row">
-                     <div class="skill-card">
-                         <div class="skill-cardImg-container5"></div>
-                         <span class="skill-card-title">JAVASCRIPT</span>
-                         <div class="language-percentage">
-                         <span class="percentage fill"></span>
-                         <span class="percentage fill"></span>
-                         <span class="percentage fill"></span>
-                         <span class="percentage fill"></span>
-                         <span class="percentage empty"></span>
-                         </div>
-                     </div>
-                     <div class="skill-card">
-                         <div class="skill-cardImg-container6"></div>
-                         <span class="skill-card-title">REACT</span>
-                         <div class="language-percentage">
-                         <span class="percentage fill"></span>
-                         <span class="percentage fill"></span>
-                         <span class="percentage empty"></span>
-                         <span class="percentage empty"></span>
-                         <span class="percentage empty"></span>
-                         </div>
-                     </div>
-                     <div class="skill-card">
-                         <div class="skill-cardImg-container7"></div>
-                         <span class="skill-card-title">APOLLO</span>
-                         <div class="language-percentage">
-                         <span class="percentage fill"></span>
-                         <span class="percentage fill"></span>
-                         <span class="percentage fill"></span>
-                         <span class="percentage empty"></span>
-                         <span class="percentage empty"></span>
-                         </div>
-                     </div>
-                     <div class="skill-card">
-                         <div class="skill-cardImg-container8"></div>
-                         <span class="skill-card-title">REACT NATIVE</span>
-                         <div class="language-percentage">
-                         <span class="percentage fill"></span>
-                         <span class="percentage fill"></span>
-                         <span class="percentage empty"></span>
-                         <span class="percentage empty"></span>
-                         <span class="percentage empty"></span>
-                         </div>
-                     </div>
-                 </div>  
+          </div>
+          <div class="portfailo-link__container">
+            <div class="portfailo-text" id="div-link1">
+              <span
+                >Hi, I’m Yousuf! I'm a web developer with in-depth experience in
+                front-end programming languages. In a nutshell, I create
+                websites that help organizations address business challenges and
+                meet their needs. I manage everything from website navigation
+                and layout to a company's web hosting and security architecture.
+                My expertise lies within front-end web apps, and the main
+                languages in my tech stack are JavaScript, React, and of course
+                HTML/CSS. I’m a lifelong learner (currently taking a course on
+                building Mobile applications with React Native!) and love to
+                read, run, and find new friends in Herat City.</span
+              >
             </div>
-           <div id="skill-link2" style="display: none;">
+            <div class="portfailo-text" id="div-link2" style="display: none">
+              <span class="experience">
+                <h1 class="experience-heading">My experience</h1>
+                <ul class="experience-list">
+                  <li>2 Years Work Experience as programmer</li>
+                  <li>Programming as front end developer</li>
+                  <li>Design best UI for website</li>
+                  <li>Expert knowledge of front end languages</li>
+                  <li>Organize information the right way</li>
+                </ul>
+              </span>
+            </div>
+            <div class="portfailo-text" id="div-link3" style="display: none">
+              <span class="education">
+                <h1 class="education-heading">My education</h1>
+                <ul class="education-list">
+                  <li>Graduated from sultan High School since 2019</li>
+                  <li>Graduated from Herat University since 2022</li>
+                  <li>
+                    Having Attended the Herat Province Training Computer for
+                    July2018 to January2019
+                  </li>
+                  <li>
+                    Having Attended English Lessons about 6 semesters at Academy
+                    of TOEFL Ertaqa
+                  </li>
+                  <li>
+                    By Taking a good Score (305) at the kankor Exam was able to
+                    succeed in computer science faculty
+                  </li>
+                </ul>
+              </span>
+            </div>
+            <div class="cv-container" id="cv-1">
+              <a href="resources/images/cv.pdf" class="cv-link">download CV</a>
+              <a href="#myWorks" class="cv-link">my works</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="skills-container" id="skills">
+        <span class="skill-heading">skills</span>
+        <div class="skills-catagory">
+          <a
+            href="#skills"
+            class="link"
+            id="skills-link1"
+            onclick="displayFrontEnd()"
+            style="background-color: rgb(2, 0, 36)"
+            >front end</a
+          >
+          <a
+            href="#skills"
+            class="link"
+            id="skills-link2"
+            onclick="displayBackEnd()"
+            >back end</a
+          >
+          <a
+            href="#skills"
+            class="link"
+            id="skills-link3"
+            onclick="displayTools()"
+            >tools</a
+          >
+        </div>
+        <div class="language-container">
+          <div id="skill-link1">
             <div class="skill-row">
-                <div class="skill-card">
-                    <div class="skill-cardImg-container9"></div>
-                    <span class="skill-card-title">PHP</span>
-                    <div class="language-percentage">
-                    <span class="percentage fill"></span>
-                    <span class="percentage fill"></span>
-                    <span class="percentage fill"></span>
-                    <span class="percentage fill"></span>
-                    <span class="percentage empty"></span>
-                    </div>
+              <div class="skill-card">
+                <div class="skill-cardImg-container1"></div>
+                <span class="skill-card-title">HTML</span>
+                <div class="language-percentage">
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage empty"></span>
                 </div>
-                <div class="skill-card">
-                    <div class="skill-cardImg-container10"></div>
-                    <span class="skill-card-title">NODE</span>
-                    <div class="language-percentage">
-                    <span class="percentage fill"></span>
-                    <span class="percentage fill"></span>
-                    <span class="percentage fill"></span>
-                    <span class="percentage empty"></span>
-                    <span class="percentage empty"></span>
-                    </div>
+              </div>
+              <div class="skill-card">
+                <div class="skill-cardImg-container2"></div>
+                <span class="skill-card-title">CSS</span>
+                <div class="language-percentage">
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage empty"></span>
                 </div>
-                <div class="skill-card">
-                    <div class="skill-cardImg-container11"></div>
-                    <span class="skill-card-title">MONGO DB</span>
-                    <div class="language-percentage">
-                    <span class="percentage fill"></span>
-                    <span class="percentage fill"></span>
-                    <span class="percentage fill"></span>
-                    <span class="percentage empty"></span>
-                    <span class="percentage empty"></span>
-                    </div>
+              </div>
+              <div class="skill-card">
+                <div class="skill-cardImg-container3"></div>
+                <span class="skill-card-title">BOOTSTRAP</span>
+                <div class="language-percentage">
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage empty"></span>
                 </div>
-                <div class="skill-card">
-                    <div class="skill-cardImg-container12"></div>
-                    <span class="skill-card-title">MYSQL</span>
-                    <div class="language-percentage">
-                    <span class="percentage fill"></span>
-                    <span class="percentage fill"></span>
-                    <span class="percentage fill"></span>
-                    <span class="percentage empty"></span>
-                    <span class="percentage empty"></span>
-                    </div>
+              </div>
+              <div class="skill-card">
+                <div class="skill-cardImg-container4"></div>
+                <span class="skill-card-title">SASS</span>
+                <div class="language-percentage">
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage empty"></span>
+                  <span class="percentage empty"></span>
                 </div>
+              </div>
             </div>
             <div class="skill-row">
-                <div class="skill-card">
-                    <div class="skill-cardImg-container13"></div>
-                    <span class="skill-card-title">GRAPHQL</span>
-                    <div class="language-percentage">
-                    <span class="percentage fill"></span>
-                    <span class="percentage fill"></span>
-                    <span class="percentage fill"></span>
-                    <span class="percentage empty"></span>
-                    <span class="percentage empty"></span>
-                    </div>
+              <div class="skill-card">
+                <div class="skill-cardImg-container5"></div>
+                <span class="skill-card-title">JAVASCRIPT</span>
+                <div class="language-percentage">
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage empty"></span>
                 </div>
+              </div>
+              <div class="skill-card">
+                <div class="skill-cardImg-container6"></div>
+                <span class="skill-card-title">REACT</span>
+                <div class="language-percentage">
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage empty"></span>
+                  <span class="percentage empty"></span>
+                  <span class="percentage empty"></span>
+                </div>
+              </div>
+              <div class="skill-card">
+                <div class="skill-cardImg-container7"></div>
+                <span class="skill-card-title">APOLLO</span>
+                <div class="language-percentage">
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage empty"></span>
+                  <span class="percentage empty"></span>
+                </div>
+              </div>
+              <div class="skill-card">
+                <div class="skill-cardImg-container8"></div>
+                <span class="skill-card-title">REACT NATIVE</span>
+                <div class="language-percentage">
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage empty"></span>
+                  <span class="percentage empty"></span>
+                  <span class="percentage empty"></span>
+                </div>
+              </div>
             </div>
-           </div>
-           <div id="skill-link3" style="display: none;">
+          </div>
+          <div id="skill-link2" style="display: none">
             <div class="skill-row">
-                <div class="skill-card">
-                    <div class="skill-cardImg-container14"></div>
-                    <span class="skill-card-title">github</span>
-                    <div class="language-percentage">
-                    <span class="percentage fill"></span>
-                    <span class="percentage fill"></span>
-                    <span class="percentage fill"></span>
-                    <span class="percentage fill"></span>
-                    <span class="percentage empty"></span>
-                    </div>
+              <div class="skill-card">
+                <div class="skill-cardImg-container9"></div>
+                <span class="skill-card-title">PHP</span>
+                <div class="language-percentage">
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage empty"></span>
                 </div>
-                
+              </div>
+              <div class="skill-card">
+                <div class="skill-cardImg-container10"></div>
+                <span class="skill-card-title">NODE</span>
+                <div class="language-percentage">
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage empty"></span>
+                  <span class="percentage empty"></span>
+                </div>
+              </div>
+              <div class="skill-card">
+                <div class="skill-cardImg-container11"></div>
+                <span class="skill-card-title">MONGO DB</span>
+                <div class="language-percentage">
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage empty"></span>
+                  <span class="percentage empty"></span>
+                </div>
+              </div>
+              <div class="skill-card">
+                <div class="skill-cardImg-container12"></div>
+                <span class="skill-card-title">MYSQL</span>
+                <div class="language-percentage">
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage empty"></span>
+                  <span class="percentage empty"></span>
+                </div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-card">
+                <div class="skill-cardImg-container13"></div>
+                <span class="skill-card-title">GRAPHQL</span>
+                <div class="language-percentage">
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage empty"></span>
+                  <span class="percentage empty"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="skill-link3" style="display: none">
+            <div class="skill-row">
+              <div class="skill-card">
+                <div class="skill-cardImg-container14"></div>
+                <span class="skill-card-title">github</span>
+                <div class="language-percentage">
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage fill"></span>
+                  <span class="percentage empty"></span>
+                </div>
+              </div>
             </div>
             <!-- <div class="skill-row">
             </div> -->
-           </div>
-           </div>
+          </div>
         </div>
-        <div class="project-container" id="myWorks">
-            <span class="about-me" >
-                <span>my works</span>
+      </div>
+      <div class="project-container" id="myWorks">
+        <span class="about-me">
+          <span>my works</span>
+        </span>
+        <div class="projects">
+          <div class="card">
+            <div class="cardImg-container1"></div>
+            <span class="card-title">foodBurg</span>
+            <span class="card-text"
+              >An online order foods website that every one can order online
+              food from every where.
             </span>
-            <div class="projects">
-                <div class="card">
-                <div class="cardImg-container1"></div>
-                <span class="card-title">foodBurg</span>
-                <span class="card-text">An online order foods website that every one can order online food from every where. </span>
-                <a href="https://github.com/YousufMohammadi/foodBurg" class="card-link">see project</a>
-                </div>
-                <div class="card">
-                    <div class="cardImg-container2"></div>
-                    <span class="card-title">stroog</span>
-                    <span class="card-text">Stroog is a furniture website that you can see new sofa and chairs also can buy if you would like them.</span>
-                    <a href="https://github.com/YousufMohammadi/stroog" class="card-link">see project</a>
-                </div>
-                <div class="card">
-                    <div class="cardImg-container3"></div>
-                    <span class="card-title">flex</span>
-                    <span class="card-text">Flex is a simple design about header and card that how we can use flex to making card.</span>
-                    <a href="https://github.com/YousufMohammadi/stoorg" class="card-link">see project</a>
-            </div>
-            </div>
+            <a
+              href="https://github.com/YousufMohammadi/foodBurg"
+              class="card-link"
+              >see project</a
+            >
+          </div>
+          <div class="card">
+            <div class="cardImg-container2"></div>
+            <span class="card-title">stroog</span>
+            <span class="card-text"
+              >Stroog is a furniture website that you can see new sofa and
+              chairs also can buy if you would like them.</span
+            >
+            <a
+              href="https://github.com/YousufMohammadi/stroog"
+              class="card-link"
+              >see project</a
+            >
+          </div>
+          <div class="card">
+            <div class="cardImg-container3"></div>
+            <span class="card-title">flex</span>
+            <span class="card-text"
+              >Flex is a simple design about header and card that how we can use
+              flex to making card.</span
+            >
+            <a
+              href="https://github.com/YousufMohammadi/stoorg"
+              class="card-link"
+              >see project</a
+            >
+          </div>
         </div>
-        <div class="contact-container" id="contact"> 
-            <span class="skill-heading">contact me</span>
-            <div class="first-contact">
-                <span class="email">
-                  <img src="resources/css/img/mail.png" alt="email">
-                  <span> yousufmohammadi3222@gmail.com</span>
-                </span>                
-                <span class="phone">
-                   <img src="resources/css/img/phone.png" alt="">
-                   <span> +93 790 88 33 62</span>
-                   <div class="second-contact">
-                    <a href="https://t.me/Mh_Yousuf">
-                      <img src="resources/css/img/telegram.png" alt=""> 
-                    </a>
-                  <a href="https://wa.me/93790883362">
-                    <img src="resources/css/img/whatsapp.png" alt=""> 
-                  </a>
-                </div>
-                </span>
+      </div>
+      <div class="contact-container" id="contact">
+        <span class="skill-heading">contact me</span>
+        <div class="first-contact">
+          <span class="email">
+            <img src="resources/css/img/mail.png" alt="email" />
+            <span> yousufmohammadi3222@gmail.com</span>
+          </span>
+          <span class="phone">
+            <img src="resources/css/img/phone.png" alt="" />
+            <span> +93 790 88 33 62</span>
+            <div class="second-contact">
+              <a href="https://t.me/Mh_Yousuf">
+                <img src="resources/css/img/telegram.png" alt="" />
+              </a>
+              <a href="https://wa.me/93790883362">
+                <img src="resources/css/img/whatsapp.png" alt="" />
+              </a>
             </div>
+          </span>
         </div>
-        <div class="footer-container">
-            <div class="link-container-footer">
-                <a href="index.html">home</a>
-                <a href="#aboutme">about me</a>
-                <a href="#skills">skills</a>
-                <a href="#myWorks">project</a>
-                <a href="#contact">contanct</a>
-            </div>
-            <div class="social-container-footer">
-                <a href="https://www.facebook.com/yousuf.mohammadi.71"><img src="resources/css/img/001-facebook.png" alt="facebook" class="social-icon-footer"></a>
-                <a href="https://twitter.com/Mh_Yousuf2021"><img src="resources/css/img/005-twitter.png" alt="twitter" class="social-icon-footer"></a>
-                <a href="https://www.linkedin.com/in/yousuf-mohammadi-4114b3179/"><img src="resources/css/img/007-linkedin.png" alt="linked in" class="social-icon-footer"></a>
-                <a href="https://github.com/YousufMohammadi"><img src="resources/css/img/002-github.png" alt="linked in" class="social-icon"></a>
-            </div>
-            <span class="copy-text">Copyright&copy;Yousuf Mohammadi 2022</span>
+      </div>
+      <div class="footer-container">
+        <div class="link-container-footer">
+          <a href="index.html">home</a>
+          <a href="#aboutme">about me</a>
+          <a href="#skills">skills</a>
+          <a href="#myWorks">project</a>
+          <a href="#contact">contanct</a>
         </div>
+        <div class="social-container-footer">
+          <a href="https://www.facebook.com/yousuf.mohammadi.71"
+            ><img
+              src="resources/css/img/001-facebook.png"
+              alt="facebook"
+              class="social-icon-footer"
+          /></a>
+          <a href="https://twitter.com/Mh_Yousuf2021"
+            ><img
+              src="resources/css/img/005-twitter.png"
+              alt="twitter"
+              class="social-icon-footer"
+          /></a>
+          <a href="https://www.linkedin.com/in/yousuf-mohammadi-4114b3179/"
+            ><img
+              src="resources/css/img/007-linkedin.png"
+              alt="linked in"
+              class="social-icon-footer"
+          /></a>
+          <a href="https://github.com/YousufMohammadi"
+            ><img
+              src="resources/css/img/002-github.png"
+              alt="linked in"
+              class="social-icon"
+          /></a>
+        </div>
+        <span class="copy-text">Copyright&copy;Yousuf Mohammadi 2022</span>
+      </div>
     </div>
-    
-</body>
+  </body>
 </html>
